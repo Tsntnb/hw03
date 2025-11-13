@@ -1,0 +1,26 @@
+baseURL = 'https://tsntnb.github.io/hw03/'
+languageCode = 'ru-ru'
+title = 'CustomLevels'
+theme = 'compose'
+
+[params]
+  author = 'Tnstnb'
+  description = 'Site for plugin CustomLevels'
+  
+[params.logo]
+  lightMode = "customlevels/static/images/CustomLevelsLogo.png"
+  darkMode = "customlevels/static/images/CustomLevelsLogo.png"
+
+[menu]
+  [[menu.main]]
+    name = 'Главная'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'Описание'
+    url = '/about/'
+    weight = 2
+  [[menu.main]]
+    name = 'Разработка'
+    url = '/dev/'
+    weight = 3
